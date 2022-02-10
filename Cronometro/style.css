@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #28161C;
+}
+
+.principal{
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.conteudo{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cronometro-div{
+    background-color: #000000;
+    color: #B9B9B9;
+    padding: 15px;
+    width: 80%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    margin: auto;
+    font-size: 95px;
+    font-weight: bolder;
+    border: 1px solid transparent;
+}
+
+.botoes-div{
+    background-color: #000000;
+    color: #B9B9B9;
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    border: 1px solid transparent;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 5px solid #B9B9B9;
+    text-align: center;
+}
+
+.botoes-div input[type=button]{
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+
+    color: #FFF;
+    font-weight: bold;
+}
+
+.bt-iniciar{
+    background-color: #4CAF50;
+}
+.bt-iniciar:hover{
+    background-color: #6cca70; 
+}
+.bt-iniciar:active{
+    background-color: #49804c; 
+}
+.bt-pausar{
+    background-color: #e62d2d;
+}
+.bt-pausar:hover{
+    background-color: #f54747;
+}
+.bt-zerar{
+    background-color: #2140ca;
+}
+.bt-zerar:hover{
+    background-color: #3354e9;
+}
+
+.info-div{
+    background-color: #000000;
+    color: #B9B9B9;
+    font-size: 10px;
+    text-transform: uppercase;
+
+    padding: 15px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}

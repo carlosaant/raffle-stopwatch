@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio progBR - Pagina de Sorteio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>Developed by Antc.minga</li>
+      </ul>
+    </nav>
+    <main class="content">
+      <h1>Sorteio de Pessoas</h1>
+      <input
+        class="inp-text"
+        type="text"
+        id="inp-text"
+        placeholder="Digite um nome.."
+      />
+      <input
+        class="inp-button"
+        type="button"
+        id="inp-button"
+        value="Adicionar"
+      />
+      <div class="div-list">
+        <ul id="ul_pessoas"></ul>
+      </div>
+      <input
+        class="inp-button bt_novo"
+        id="inp-button-novo"
+        type="button"
+        value="Novo Sorteio"
+        onclick="novoSorteio()"
+      />
+      <input
+        class="inp-button bt_sortear"
+        id="inp-button-sortear"
+        type="button"
+        value="Sortear"
+        onclick="sorteiaPessoa()"
+      />
+    </main>
+    <div class="mensagem" onclick="closeForm()">Olá mundo</div>
+    <script src="script.js"></script>
+  </body>
+</html>
