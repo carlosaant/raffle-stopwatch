@@ -60,8 +60,28 @@ header h1 {
 }
 
 #projetos .projetos-div {
-
   width: 100%;
   border: 1px solid aqua;
+  padding-block: 3rem;
+  border-radius: 5px;
 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#projetos .projetos-div a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  text-transform: lowercase;
+  transition: all 0.5s;
+  padding-block: 1rem;
+}
+
+#projetos .projetos-div a:hover {
+  background-color: rgb(59, 57, 57);
+  border-radius: 1px;
+  padding-inline: 0.5rem;
 }
