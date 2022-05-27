@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --font-header: 'Bebas Neue', cursive;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  color: white;
+
+  font-size: 1.6rem;
+}
+
+.wrapper {
+  width: min(50rem, 100%);
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-inline: 2.4rem;
+}
+
+header {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  text-align: center;
+
+  font-size: 3rem;
+  font-family: var(--font-header);
+
+  line-height: 150%;
+  letter-spacing: 0.2rem;
+}
+
+#projetos h2 {
+  text-align: left;
+  font-size: 2rem;
+  font-family: var(--font-header);
+
+  line-height: 150%;
+  letter-spacing: 0.2rem;
+}
+
+#projetos .projetos-div {
+
+  width: 100%;
+  border: 1px solid aqua;
+
+}
